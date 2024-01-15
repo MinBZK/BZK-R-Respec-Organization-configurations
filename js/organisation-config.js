@@ -8,7 +8,7 @@ var organisationConfig = {
     // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
     // Hier is er voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
     logos: [{
-        src: "https://vng-realisatie.github.io/Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
+        src: "https://vng-realisatie.github.io/VNG-R-Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
         alt: "VNG-Realisatie",
         id: "VNG-Realisatie",
         height: 77,
