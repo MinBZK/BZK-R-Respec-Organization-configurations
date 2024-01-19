@@ -40,6 +40,7 @@ var organisationConfig = {
 
     useLogo: true,
     useLabel: true,
+    maxTocLevel: 1,
 
     license: "eupl",
     addSectionLinks: false,
