@@ -26,8 +26,7 @@ var organisationConfig = {
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
 
-   latestVersion: ["nl_organisationPublishURL", "pubDomain", "shortName"],
-//   latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
+   latestVersion: ["nl_organisationPublishURL", "test", "pubDomain", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "publishVersion"],
    //prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
