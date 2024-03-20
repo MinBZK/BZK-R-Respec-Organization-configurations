@@ -43,7 +43,7 @@ var organisationConfig = {
 
     license: "eupl",
     addSectionLinks: false,
-    maxTocLevel: 0,
+//    maxTocLevel: 0,
 
     localizationStrings: {
         en: {
