@@ -156,11 +156,11 @@ var organisationConfig = {
             date: "June 2013",
             rawDate: "2021"
         },
-//        "SemVer": {
-//            href: "https://semver.org",
-//            title: "Semantic Versioning 2.0.0",
-//            authors: ["T. Preston-Werner"],
-//            date: "June 2013"
-//        },
+        "SemVer": {
+            href: "https://semver.org",
+            title: "Semantic Versioning 2.0.0",
+            authors: ["T. Preston-Werner"],
+            date: "June 2013"
+        },
     },
 }
