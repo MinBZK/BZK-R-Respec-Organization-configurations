@@ -39,11 +39,11 @@ var organisationConfig = {
 
     useLogo: true,
     useLabel: true,
+    noTOC: true,
 //    maxTocLevel: 1,
 
     license: "eupl",
     addSectionLinks: false,
-//    maxTocLevel: 0,
 
     localizationStrings: {
         en: {
