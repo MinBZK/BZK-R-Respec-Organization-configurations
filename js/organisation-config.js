@@ -160,8 +160,7 @@ var organisationConfig = {
             href: "https://semver.org",
             title: "Semantic Versioning 2.0.0",
             authors: ["T. Preston-Werner"],
-//            date: "June 2013"
-            date: "Pietje Puk"
+            date: "June 2013"
         },
     },
 }
