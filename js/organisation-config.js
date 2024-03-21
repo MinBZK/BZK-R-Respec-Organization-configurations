@@ -39,7 +39,7 @@ var organisationConfig = {
 
     useLogo: true,
     useLabel: true,
-    noTOC: true,
+//    noTOC: true,
 //    maxTocLevel: 1,
 
     license: "eupl",
