@@ -162,5 +162,5 @@ var organisationConfig = {
 //            authors: ["T. Preston-Werner"],
 //            date: "June 2013"
 //        },
-//    },
+    },
 }
