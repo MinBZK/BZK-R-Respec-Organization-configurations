@@ -1,12 +1,9 @@
-// Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
     nl_organisationName: "VNG Realisatie",
-    // Onderstaande 2 variabelen moeten waarschijnlijk nog aangepast worden.
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-    //nl_organisationPublishURL: "https://github.com/melsk-r/gitdocumentatie/tree/main",
     nl_organisationPublishURL: "https://vng-realisatie.github.io/publicatie",
     // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
-    // Hier is er voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
+    // Er is voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
     logos: [{
         src: "https://vng-realisatie.github.io/VNG-R-Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
         alt: "VNG-Realisatie",
@@ -15,11 +12,10 @@ var organisationConfig = {
         url: "https://www.vng.nl",
     }],
 
-   // Mermaid is een eenvoudige notatie-wijze voor het definieren van stroomdiagrammen. Onderstaande 'postProcess' maakt van die eenvoudige notatie een grafiek.
+   // Mermaid is een eenvoudige notatie-wijze voor het definieren van  diverse soorten diagrammen. Onderstaande 'postProcess' maakt van die eenvoudige notatie een grafiek.
     postProcess: [window.respecMermaid.createFigures],
 
    // De hier gedefinieerde variabelen kunnen door ze nogmaals in de config.js te plaatsen overruled worden.  
-   // Bijv. om de url van de vorige versie niet te tonen, aan begin van de life cycle van een document is deze er nl. nog helemaal niet.
 
    pubDomain: "cim",
    	
@@ -27,15 +23,8 @@ var organisationConfig = {
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
 
    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-   // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "publishVersion"],
-   //prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "previousPublishVersion"],
-
-//   edDraftURI: "",
-	
-   // Nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terwijl die 
-   // van de huidige en laatste versie voldoet aan de naam zoals deze is. Dat zorgt er nl. voor dat die url niet werkt.
 
     useLogo: true,
     useLabel: true,
@@ -46,48 +35,44 @@ var organisationConfig = {
     addSectionLinks: true,
 
     localizationStrings: {
-        en: {
+//        en: {
             // Specificatie-statussen	
-            wv: "Draft",
-            cv: "Recommendation",
-            vv: "Proposed recommendation",
-            def: "Definitive version",
-            eo: "Outdated version",
-            tg: "Rescinded version",
+//            cv: "Recommendation",
+//            vv: "Proposed recommendation",
+//            eo: "Outdated version",
+//            tg: "Rescinded version",
 	    // Specificatie-types
-            basis: "Document",
-            no: "Norm",
-            st: "Standard",
-            im: "Information model",
-            pr: "Guideline",
-            hr: "Guide",
-            wa: "Proposed recommendation",
-            al: "General",
-            bd: "Governance documentation",
-            bp: "Best practice",
+//            basis: "Document",
+//            no: "Norm",
+//            st: "Standard",
+//            im: "Information model",
+//            pr: "Guideline",
+//            hr: "Guide",
+//            wa: "Proposed recommendation",
+//            al: "General",
+//            bd: "Governance documentation",
+//            bp: "Best practice",
         },
         nl: {
             // Specificatie-statussen	
-            wv: "Werkversie",
             cv: "Consultatieversie",
             vv: "Versie ter vaststelling",
-            def: "Vastgestelde versie",
-            eo: "Verouderde versie",
+//            eo: "Verouderde versie",
             tg: "Teruggetrokken versie",
-            tst: "Test versie",
+//            tst: "Test versie",
 	    ig: "In Gebruik versie",
 	    io: "In Ontwikkeling versie",
 	    // Specificatie-types
-            basis: "Document",
-            no: "Norm",
-            st: "Standaard",
+//            basis: "Document",
+//            no: "Norm",
+//            st: "Standaard",
             im: "Informatiemodel",
-            pr: "Praktijkrichtlijn",
-            hr: "Handreiking",
-            wa: "Werkafspraak",
-            al: "Algemeen",
-            bd: "Beheerdocumentatie",
-            bp: "Best practice",
+//            pr: "Praktijkrichtlijn",
+            hl: "Handleiding",
+//            wa: "Werkafspraak",
+//            al: "Algemeen",
+//            bd: "Beheerdocumentatie",
+//            bp: "Best practice",
         },
     },
 
