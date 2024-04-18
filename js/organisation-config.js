@@ -35,6 +35,27 @@ var organisationConfig = {
     addSectionLinks: true,
 
     localizationStrings: {
+        nl: {
+            // Specificatie-statussen	
+            cv: "Consultatieversie",
+            vv: "Versie ter vaststelling",
+            tg: "Teruggetrokken versie",
+	    ig: "In Gebruik versie",
+	    io: "In Ontwikkeling versie",
+//            eo: "Verouderde versie",
+//            tst: "Test versie",
+	    // Specificatie-types
+            im: "Informatiemodel",
+            hl: "Handleiding",
+//            basis: "Document",
+//            no: "Norm",
+//            st: "Standaard",
+//            pr: "Praktijkrichtlijn",
+//            wa: "Werkafspraak",
+//            al: "Algemeen",
+//            bd: "Beheerdocumentatie",
+//            bp: "Best practice",
+        },
 //        en: {
             // Specificatie-statussen	
 //            cv: "Recommendation",
@@ -51,27 +72,6 @@ var organisationConfig = {
 //            wa: "Proposed recommendation",
 //            al: "General",
 //            bd: "Governance documentation",
-//            bp: "Best practice",
-        },
-        nl: {
-            // Specificatie-statussen	
-            cv: "Consultatieversie",
-            vv: "Versie ter vaststelling",
-//            eo: "Verouderde versie",
-            tg: "Teruggetrokken versie",
-//            tst: "Test versie",
-	    ig: "In Gebruik versie",
-	    io: "In Ontwikkeling versie",
-	    // Specificatie-types
-//            basis: "Document",
-//            no: "Norm",
-//            st: "Standaard",
-            im: "Informatiemodel",
-//            pr: "Praktijkrichtlijn",
-            hl: "Handleiding",
-//            wa: "Werkafspraak",
-//            al: "Algemeen",
-//            bd: "Beheerdocumentatie",
 //            bp: "Best practice",
         },
     },
