@@ -42,8 +42,6 @@ var organisationConfig = {
             tg: "Teruggetrokken versie",
 	    ig: "In Gebruik versie",
 	    io: "In Ontwikkeling versie",
-//            eo: "Verouderde versie",
-//            tst: "Test versie",
 	    // Specificatie-types
             im: "Informatiemodel",
             hl: "Handleiding",
