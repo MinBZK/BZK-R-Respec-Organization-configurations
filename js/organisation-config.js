@@ -23,7 +23,7 @@ var organisationConfig = {
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
 
    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-   thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "publishVersion"],
+//   thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "publishVersion"],
    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "previousPublishVersion"],
 
     useLogo: true,
@@ -77,23 +77,20 @@ var organisationConfig = {
     sotdText: {
         nl: {
             sotd: "Status van dit document",
-            def: `Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
-            wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.`,
             cv: `Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
             vv: `Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
-            basis: "Dit is een document zonder officiële status.",
 	    ig: "Dit document is 'In Gebruik'.",
 	    io: "Dit document is nog 'In Ontwikkeling'.",
         },
-        en: {
-            sotd: "Status of This Document",
-            def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
-            wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.`,
-            cv: `This is a proposed recommendation approved by TO. Comments regarding this document may be sent to `,
-            vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
-            basis: "This document has no official standing.",
-	    ig: "This document is 'In Use'.",
-	    io: "This document is is still 'Under Development'.",
+//      en: {
+//          sotd: "Status of This Document",
+//          def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
+//          wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.`,
+//          cv: `This is a proposed recommendation approved by TO. Comments regarding this document may be sent to `,
+//          vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
+//          basis: "This document has no official standing.",
+//	    ig: "This document is 'In Use'.",
+//	    io: "This document is is still 'Under Development'.",
         },
     },
 
