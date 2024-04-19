@@ -54,14 +54,14 @@ var organisationConfig = {
 //            bd: "Beheerdocumentatie",
 //            bp: "Best practice",
         },
-        en: {
+//        en: {
             // Specificatie-statussen	
-            cv: "Recommendation",
+//            cv: "Recommendation",
 //            vv: "Proposed recommendation",
 //            eo: "Outdated version",
 //            tg: "Rescinded version",
 	    // Specificatie-types
-            basis: "Document",
+//            basis: "Document",
 //            no: "Norm",
 //            st: "Standard",
 //            im: "Information model",
@@ -71,7 +71,7 @@ var organisationConfig = {
 //            al: "General",
 //            bd: "Governance documentation",
 //            bp: "Best practice",
-        },
+//        },
     },
 
     sotdText: {
@@ -82,16 +82,16 @@ var organisationConfig = {
 	    ig: "Dit document is 'In Gebruik'.",
 	    io: "Dit document is nog 'In Ontwikkeling'.",
         },
-      en: {
-          sotd: "Status of This Document",
-          def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
+//      en: {
+//          sotd: "Status of This Document",
+//          def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
 //          wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.`,
 //          cv: `This is a proposed recommendation approved by TO. Comments regarding this document may be sent to `,
 //          vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
 //          basis: "This document has no official standing.",
 //	    ig: "This document is 'In Use'.",
 //	    io: "This document is is still 'Under Development'.",
-        },
+//        },
     },
 
     labelColor: {
