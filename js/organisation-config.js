@@ -47,7 +47,7 @@ var organisationConfig = {
             hl: "Handleiding",
 //            basis: "Document",
 //            no: "Norm",
-//            st: "Standaard",
+            st: "Standaard",
 //            pr: "Praktijkrichtlijn",
 //            wa: "Werkafspraak",
 //            al: "Algemeen",
