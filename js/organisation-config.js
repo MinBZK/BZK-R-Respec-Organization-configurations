@@ -10,7 +10,7 @@ var organisationConfig = {
        // id: "VNG-Realisatie",
         // height: 77,
         // url: "https://www.vng.nl",
-    }],
+  //  }],
 
    // Mermaid is een eenvoudige notatie-wijze voor het definieren van  diverse soorten diagrammen. Onderstaande 'postProcess' maakt van die eenvoudige notatie een grafiek.
     postProcess: [window.respecMermaid.createFigures],
