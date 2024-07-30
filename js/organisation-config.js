@@ -1,15 +1,15 @@
 var organisationConfig = {
-    nl_organisationName: "VNG Realisatie",
+    nl_organisationName: "Min Realisatie",
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-    nl_organisationPublishURL: "https://vng-realisatie.github.io/publicatie",
+    nl_organisationPublishURL: "https://Min-realisatie.github.io/publicatie",
     // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
     // Er is voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
-    logos: [{
-        src: "https://vng-realisatie.github.io/VNG-R-Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
-        alt: "VNG-Realisatie",
-        id: "VNG-Realisatie",
-        height: 77,
-        url: "https://www.vng.nl",
+   // logos: [{
+   //     src: "https://vng-realisatie.github.io/VNG-R-Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
+     //   alt: "VNG-Realisatie",
+       // id: "VNG-Realisatie",
+        // height: 77,
+        // url: "https://www.vng.nl",
     }],
 
    // Mermaid is een eenvoudige notatie-wijze voor het definieren van  diverse soorten diagrammen. Onderstaande 'postProcess' maakt van die eenvoudige notatie een grafiek.
@@ -17,7 +17,7 @@ var organisationConfig = {
 
    // De hier gedefinieerde variabelen kunnen door ze nogmaals in de config.js te plaatsen overruled worden.  
 
-   pubDomain: "cim",
+   pubDomain: "hl",
    	
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
