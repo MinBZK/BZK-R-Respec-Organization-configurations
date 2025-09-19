@@ -97,7 +97,7 @@ var organisationConfig = {
     labelColor: {
 //        def: "#154273",
 //        wv: "#39870c",
-	ig: "#A569BD",
+	ig: "#9A55B4",
 	io: "#DC7633"
     },
 	
